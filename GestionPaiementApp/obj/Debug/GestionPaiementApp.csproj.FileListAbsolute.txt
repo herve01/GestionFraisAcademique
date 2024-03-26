@@ -1,0 +1,102 @@
+C:\Users\PC\source\repos\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Form1.resources
+C:\Users\PC\source\repos\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Properties.Resources.resources
+C:\Users\PC\source\repos\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.CoreCompileInputs.cache
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\GestionPaiementApp.exe.config
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\GestionPaiementApp.exe
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\GestionPaiementApp.pdb
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Global.DefaulMainPresentationView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.MainForm.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Finance.View.CtrlFinanceView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.CtrlInscriptionView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Parametres.View.CtrlParametres.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Properties.Resources.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.GenerateResource.cache
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.CoreCompileInputs.cache
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.exe
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.pdb
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.AssemblyReference.cache
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.FaculteView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.DepartementView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.PromotionView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.AnneeAcademiqueView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.InscriptionView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Global.Popup.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.AddEtudiantView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.NiveauView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Finance.View.PrevisionView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Finance.View.PaiementFraisView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.ChoosingEtudiantView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Finance.View.ControleFraisView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPCtlXWrapperNET.dll
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPDevNET.dll
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPEngNET.dll
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPGuiNET.dll
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPShrNET.dll
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPVerNET.dll
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.CopyComplete
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.FingerPrintView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.PhotoView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\DirectX.Capture.dll
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\bin\Debug\DShowNET.dll
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.ReinscriptionView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Parametres.View.DbConnectorView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Parametres.View.LogView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Parametres.View.UserView.resources
+C:\Users\PC\3D Objects\AAAA\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Global.LoginView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\GestionPaiementApp.exe.config
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\GestionPaiementApp.exe
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\GestionPaiementApp.pdb
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPCtlXWrapperNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPDevNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPEngNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPGuiNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPShrNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPVerNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\MySql.Data.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DShowNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPCtlXTypeLibNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\DPFPShrXTypeLibNET.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\Google.Protobuf.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\Zstandard.Net.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\BouncyCastle.Crypto.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\Ubiety.Dns.Core.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\System.Buffers.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\K4os.Compression.LZ4.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\K4os.Hash.xxHash.dll
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\bin\Debug\MySql.Data.xml
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.AssemblyReference.cache
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.SuggestedBindingRedirects.cache
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Global.DefaulMainPresentationView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Global.LoginView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.MainForm.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Global.Popup.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Finance.View.ControleFraisView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Finance.View.PaiementFraisView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Finance.View.PrevisionView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.AddEtudiantView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Finance.View.CtrlFinanceView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.DepartementView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.CtrlInscriptionView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.ChoosingEtudiantView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.FingerPrintView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.NiveauView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.PhotoView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.PromotionView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.AnneeAcademiqueView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.InscriptionView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.FaculteView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Inscription.View.ReinscriptionView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Parametres.View.CtrlParametres.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Parametres.View.DbConnectorView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Parametres.View.LogView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Modules.Parametres.View.UserView.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.Properties.Resources.resources
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.GenerateResource.cache
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.CoreCompileInputs.cache
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.csproj.CopyComplete
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.exe
+N:\Last version Soft\GestionPaiementApp\GestionPaiementApp\obj\Debug\GestionPaiementApp.pdb

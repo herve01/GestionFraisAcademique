@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC831B26-1B70-471F-8B22-69B9779BDD5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GestionPaiementApp</RootNamespace>
+    <AssemblyName>GestionPaiementApp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DirectX.Capture">
+      <HintPath>..\..\..\..\source\repos\skul\SKUL\Dependencies\DirectX.Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPCtlXWrapperNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=c0c98f712d5392a7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\source\repos\PrinterManagerBudget\BudgetFingerPrintSetup\dependencies\DPFPCtlXWrapperNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPDevNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=696774c42ee28c57, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\source\repos\PrinterManagerBudget\BudgetFingerPrintSetup\dependencies\DPFPDevNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPEngNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=7fe76e7adf19964b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\source\repos\PrinterManagerBudget\BudgetFingerPrintSetup\dependencies\DPFPEngNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPGuiNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=d4f4a0bd9c559145, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\source\repos\PrinterManagerBudget\BudgetFingerPrintSetup\dependencies\DPFPGuiNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPShrNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=d902fe275a8d6cf2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\source\repos\PrinterManagerBudget\BudgetFingerPrintSetup\dependencies\DPFPShrNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPVerNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=4de0a9c4dcc83984, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\source\repos\PrinterManagerBudget\BudgetFingerPrintSetup\dependencies\DPFPVerNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PrinterManagerBudget\BudgetFingerPrintSetup\dependencies\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dao\AnneeAcademiqueDao.cs" />
+    <Compile Include="Dao\Dao.cs" />
+    <Compile Include="Dao\DbConfig.cs" />
+    <Compile Include="Dao\EtudiantEmpreinteDao.cs" />
+    <Compile Include="Dao\EtudiantDao.cs" />
+    <Compile Include="Dao\DepartementDao.cs" />
+    <Compile Include="Dao\Helper\AppDao.cs" />
+    <Compile Include="Dao\UserDao.cs" />
+    <Compile Include="Dao\FaculteDao.cs" />
+    <Compile Include="Dao\Helper\Connection.cs" />
+    <Compile Include="Dao\Helper\Util.cs" />
+    <Compile Include="Dao\InscriptionDao.cs" />
+    <Compile Include="Dao\NiveauDao.cs" />
+    <Compile Include="Dao\TrancheDao.cs" />
+    <Compile Include="Dao\PrevisionDao.cs" />
+    <Compile Include="Dao\PaiementDao.cs" />
+    <Compile Include="Dao\PromotionDoa.cs" />
+    <Compile Include="Extension\StringExtensions.cs" />
+    <Compile Include="Global\LoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global\LoginView.Designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global\DefaulMainPresentationView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Global\DefaulMainPresentationView.Designer.cs">
+      <DependentUpon>DefaulMainPresentationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global\Popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global\Popup.Designer.cs">
+      <DependentUpon>Popup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AnneeAcademique.cs" />
+    <Compile Include="Model\App\AppConfig.cs" />
+    <Compile Include="Model\EtudiantEmpreinte.cs" />
+    <Compile Include="Model\Etudiant.cs" />
+    <Compile Include="Model\Departement.cs" />
+    <Compile Include="Model\Faculte.cs" />
+    <Compile Include="Model\Helper\FingerPrintController.cs" />
+    <Compile Include="Model\Helper\FingerPrintUtil.cs" />
+    <Compile Include="Model\Helper\ImageUtil.cs" />
+    <Compile Include="Model\Helper\PasswordStorage.cs" />
+    <Compile Include="Model\Inscription.cs" />
+    <Compile Include="Model\ModelBase.cs" />
+    <Compile Include="Model\Niveau.cs" />
+    <Compile Include="Model\Paiement.cs" />
+    <Compile Include="Model\POCO\PaiementDetail.cs" />
+    <Compile Include="Model\Prevision.cs" />
+    <Compile Include="Model\Promotion.cs" />
+    <Compile Include="Model\Tranche.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Modules\Finance\View\ControleFraisView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Finance\View\ControleFraisView.Designer.cs">
+      <DependentUpon>ControleFraisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Finance\View\PaiementFraisView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Finance\View\PaiementFraisView.Designer.cs">
+      <DependentUpon>PaiementFraisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Finance\View\PrevisionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Finance\View\PrevisionView.Designer.cs">
+      <DependentUpon>PrevisionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Functions.cs" />
+    <Compile Include="Modules\Inscription\View\AddEtudiantView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\AddEtudiantView.Designer.cs">
+      <DependentUpon>AddEtudiantView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Finance\View\CtrlFinanceView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Finance\View\CtrlFinanceView.Designer.cs">
+      <DependentUpon>CtrlFinanceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\DepartementView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\DepartementView.Designer.cs">
+      <DependentUpon>DepartementView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\CtrlInscriptionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\CtrlInscriptionView.Designer.cs">
+      <DependentUpon>CtrlInscriptionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\ChoosingEtudiantView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\ChoosingEtudiantView.Designer.cs">
+      <DependentUpon>ChoosingEtudiantView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\FingerPrintView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\FingerPrintView.Designer.cs">
+      <DependentUpon>FingerPrintView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\NiveauView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\NiveauView.Designer.cs">
+      <DependentUpon>NiveauView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\PhotoView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\PhotoView.Designer.cs">
+      <DependentUpon>PhotoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\PromotionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\PromotionView.Designer.cs">
+      <DependentUpon>PromotionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\AnneeAcademiqueView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\AnneeAcademiqueView.Designer.cs">
+      <DependentUpon>AnneeAcademiqueView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\InscriptionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\InscriptionView.Designer.cs">
+      <DependentUpon>InscriptionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\FaculteView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\FaculteView.Designer.cs">
+      <DependentUpon>FaculteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\ReinscriptionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Inscription\View\ReinscriptionView.Designer.cs">
+      <DependentUpon>ReinscriptionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Parametres\View\CtrlParametres.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Parametres\View\CtrlParametres.Designer.cs">
+      <DependentUpon>CtrlParametres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Parametres\View\DbConnectorView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Parametres\View\DbConnectorView.Designer.cs">
+      <DependentUpon>DbConnectorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Parametres\View\LogView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Parametres\View\LogView.Designer.cs">
+      <DependentUpon>LogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Parametres\View\UserView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Parametres\View\UserView.Designer.cs">
+      <DependentUpon>UserView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Global\DefaulMainPresentationView.resx">
+      <DependentUpon>DefaulMainPresentationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global\LoginView.resx">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global\Popup.resx">
+      <DependentUpon>Popup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Finance\View\ControleFraisView.resx">
+      <DependentUpon>ControleFraisView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Finance\View\PaiementFraisView.resx">
+      <DependentUpon>PaiementFraisView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Finance\View\PrevisionView.resx">
+      <DependentUpon>PrevisionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\AddEtudiantView.resx">
+      <DependentUpon>AddEtudiantView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Finance\View\CtrlFinanceView.resx">
+      <DependentUpon>CtrlFinanceView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\DepartementView.resx">
+      <DependentUpon>DepartementView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\CtrlInscriptionView.resx">
+      <DependentUpon>CtrlInscriptionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\ChoosingEtudiantView.resx">
+      <DependentUpon>ChoosingEtudiantView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\FingerPrintView.resx">
+      <DependentUpon>FingerPrintView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\NiveauView.resx">
+      <DependentUpon>NiveauView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\PhotoView.resx">
+      <DependentUpon>PhotoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\PromotionView.resx">
+      <DependentUpon>PromotionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\AnneeAcademiqueView.resx">
+      <DependentUpon>AnneeAcademiqueView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\InscriptionView.resx">
+      <DependentUpon>InscriptionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\FaculteView.resx">
+      <DependentUpon>FaculteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Inscription\View\ReinscriptionView.resx">
+      <DependentUpon>ReinscriptionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Parametres\View\CtrlParametres.resx">
+      <DependentUpon>CtrlParametres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Parametres\View\DbConnectorView.resx">
+      <DependentUpon>DbConnectorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Parametres\View\LogView.resx">
+      <DependentUpon>LogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Parametres\View\UserView.resx">
+      <DependentUpon>UserView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\Finance\Repporting\" />
+    <Folder Include="Modules\Inscription\Repporting\" />
+    <Folder Include="Modules\Parametres\Repporting\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tools1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moneytt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\School-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\School-012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\University.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar-Date-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-0477.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-04222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-088884.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-00009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monehhhy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toolsyyyy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Housfffe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolsUUUUUU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolsKKKKK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Command-Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Command-hhhRefresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data-Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payment-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payment-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report-Editor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Finger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document-Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data-Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Command-Reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakePhoto.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\House11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+    <None Include="Resources\User-Profilehhh.png" />
+    <None Include="Resources\upload.gif" />
+    <None Include="Resources\Arrowhead-Left-01.png" />
+    <None Include="Resources\Arrowhead-Right-01.png" />
+    <None Include="Resources\Branch-Engineering.png" />
+    <None Include="Resources\User-Profilerr.png" />
+    <None Include="Resources\Data-Information.png" />
+    <Content Include="Resources\Principal-01.png" />
+    <None Include="Resources\Woman-041.png" />
+    <None Include="Resources\Principal-011.png" />
+    <Content Include="Resources\Woman-04.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
